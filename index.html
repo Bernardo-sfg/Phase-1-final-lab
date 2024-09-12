@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Pokemon search</title>
+        <link rel="stylesheet" href="style.css">
+        <script defer src="script.js"></script>
+    </head>
+    <body>
+        <form id="userForm">
+            <input type=text id="name" placeholder="Enter User Name"><br>
+            <input type="password" id="pass" placeholder="Enter Passcode"><br>
+            <button id="userbtn" type="submit">ENTER</button>
+        </form><br>
+
+
+        <input type="text" id="pokemonName" placeholder="Enter Pokemon name">
+        <button id="Pbtn" onclick="fetchDataP()">SEARCH</button>
+        <div class="container">
+            <img src="" alt="Pokemon Sprite" id="pokemonSprite" style="display: none">
+        </div>
+        <h1 id="Pname"></h1>
+        <h1 id="Ptype"></h1>
+        <button id="Pmove0">LEARN</button>
+        <button id="Pmove1">LEARN</button><br>
+        <button id="Pmove2">LEARN</button>
+        <button id="Pmove3">LEARN</button><br><br>
+
+        <button id="attbtn" onclick="">ATTACK</button><br><br>
+
+        <input type="text" id="Ename" placeholder="Enter Pokemon name">
+        <button id="Ebtn" onclick="fetchDataE()">SEARCH</button>
+        <div class="container">
+            <img src="" alt="Pokemon Sprite" id="EpokemonSprite" style="display: none">
+        </div>
+        <h1 id="Ename"></h1>
+        <h1 id="Etype"></h1>
+    </body>
+</html>
